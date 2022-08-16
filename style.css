@@ -52,7 +52,7 @@ h1 {
 /* Hero */
 
 .hero {
-    padding: 130px 0 130px 0;
+    padding: 100px 0 0 0;
 }
 
 .hero-column1 {
@@ -84,7 +84,14 @@ h2 {
     text-align: center;
     border-radius: 5px;
     margin: 20px 0 170px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
 }
+
+.btn-signup:hover {
+    background-color: #0d449b;
+    transform: scale(98%);
+} 
 
 .hero-column2 {
     margin-right: 250px;
@@ -97,4 +104,115 @@ h2 {
     height: 65%;
     margin-left: 100px;
     float: right;
+}
+
+.body-section {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+    padding-bottom: 100px;
+    
+}
+
+.random {
+    color: black;
+    font-size: 36px;
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+
+.cube-txt {
+    width: 200px;
+    margin: 10px 55px;
+}
+
+/* .groups {
+    display: flex;
+    flex-direction: column;
+} */
+
+.img-cubes {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px 300px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.author {
+    font-size: 24px;
+    margin-left: 600px;
+    
+}
+
+.cta-section {
+    background-color: white;
+    padding: 100px 300px;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    padding: 50px 150px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-heading {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.cta-text {
+    color: white;
+    font-size: 19px;
+}
+
+.cta-btn {
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: white;
+    color: #3882f6;
+    transform: scale(98%);
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    font-size: 20px;
 }
