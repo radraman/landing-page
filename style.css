@@ -1,137 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 /* General-Body */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .container {
-    width: 95%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* Navbar */
 
 .navbar,
 .hero {
-    display: flex;
-    background-color: #1f2937;
-    color: white;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: extra-bold ;
-    color: #f9faf8;
-    margin-left:250px;
-    
+  font-size: 24px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  margin-left: 150px;
 }
 
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-right: 250px;
-    font-size: 20px;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 150px;
+  font-size: 20px;
 }
 
 .nav-link2 {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 /* Hero */
 
 .hero {
-    padding: 100px 0 0 0;
+  padding: 100px 0 0 0;
 }
 
 .hero-column1 {
-    margin-left:250px;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    padding-right: 30px;
-    width: 30%;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+  width: 30%;
 }
 
 h2 {
-    font-size: 50px;
-    font-weight:700 ;
-    color: #f9faf8;
-    margin-bottom: 30px;
-    
+  font-size: 50px;
+  font-weight: 700;
+  color: #f9faf8;
+  margin-bottom: 30px;
 }
 
 .hero-text {
-    line-height: 30px;
-    font-size: 20px;
+  line-height: 30px;
+  font-size: 20px;
 }
 
 .btn-signup {
-    background-color: #3882f6;
-    padding: 10px 30px;
-    width: 30%;
-    text-align: center;
-    border-radius: 5px;
-    margin: 20px 0 170px 0;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+  background-color: #3882f6;
+  padding: 10px 30px;
+  width: 50%;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px 0 170px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn-signup:hover {
-    background-color: #0d449b;
-    transform: scale(98%);
-} 
+  background-color: #0d449b;
+  transform: scale(98%);
+}
 
 .hero-column2 {
-    margin-right: 250px;
-    margin-left: 40px;
-
+  margin-right: 250px;
+  margin-left: 40px;
 }
 
 .hero-img {
-    width: 80%;
-    height: 65%;
-    margin-left: 100px;
-    float: right;
+  width: 80%;
+  height: 65%;
+  margin-left: 100px;
+  float: right;
 }
 
 .body-section {
-    display: flex;
-    background-color: white;
-    align-items: center;
-    padding-top: 50px;
-    flex-direction: column;
-    padding-bottom: 100px;
-    
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+  padding-bottom: 100px;
 }
 
 .random {
-    color: black;
-    font-size: 36px;
+  color: black;
+  font-size: 36px;
 }
 
 .cube {
-    width: 200px;
-    height: 200px;
-    border: 4px solid #3882f6;
-    border-radius: 25px;
-    margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 25px;
+  margin-left: 50px;
 }
 
 .cube-txt {
-    width: 200px;
-    margin: 10px 55px;
+  width: 200px;
+  margin: 10px 55px;
 }
 
 /* .groups {
@@ -140,79 +135,77 @@ h2 {
 } */
 
 .img-cubes {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: space-between;
 }
 
 .quote-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #e5e7eb;
-    color: #1f2937;
-    padding: 100px 300px;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 100px 300px;
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: 400;
+  font-size: 36px;
+  font-weight: 400;
 }
 
 .author {
-    font-size: 24px;
-    margin-left: 600px;
-    
+  font-size: 24px;
+  margin-left: 600px;
 }
 
 .cta-section {
-    background-color: white;
-    padding: 100px 300px;
+  background-color: white;
+  padding: 100px 200px;
 }
 
 .cta-box {
-    background-color: #3882f6;
-    padding: 50px 150px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cta-heading {
-    font-size: 24px;
-    color: white;
-    margin-bottom: 5px;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 5px;
 }
 
 .cta-text {
-    color: white;
-    font-size: 19px;
+  color: white;
+  font-size: 19px;
 }
 
 .cta-btn {
-    border: 2px solid white;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-left: 50px;
 }
 
 .cta-btn:hover {
-    background-color: white;
-    color: #3882f6;
-    transform: scale(98%);
+  background-color: white;
+  color: #3882f6;
+  transform: scale(98%);
 }
 
 .footer {
-    background-color: #1f2937;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-    font-size: 20px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  font-size: 20px;
 }
